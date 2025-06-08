@@ -35,7 +35,7 @@ export async function getConfigAddresses(cleanIPs, VLTRenableIPv6, customCdnAddr
     const defaultIPv6 = VLTRenableIPv6 ? resolved.ipv6.map((ip) => `[${ip}]`) : [];
     const addrs = [
         hostName,
-        'www.speedtest.net',
+        'www.visa.com',
         ...resolved.ipv4,
         ...defaultIPv6,
         ...cleanIPs
